@@ -1,12 +1,9 @@
-public class Program
-{
-   static void Main(string[] args)
-   {
-        var builder = WebApplication.CreateBuilder(args);
-        builder.Services.AddControllers();
-        var app = builder.Build();
+using CommandAPI.Data;
 
-        app.MapControllers();
-        app.Run();
-   }
-}
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllers();
+builder.Services.AddScoped<ICommandAPIRepo, MockCommandAPIRepo>();
+var app = builder.Build();
+
+app.MapControllers();
+app.Run();
