@@ -19,3 +19,13 @@ D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\Comm
 D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\obj\Debug\net6.0\CommandAPI.pdb
 D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\obj\Debug\net6.0\CommandAPI.genruntimeconfig.cache
 D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\obj\Debug\net6.0\ref\CommandAPI.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\nuget.config
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\Humanizer.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\Npgsql.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\obj\Debug\net6.0\CommandAPI.csproj.CopyComplete
