@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QvGkhplVjQKuUSeqkuhxeyup1Brc+0eN98TXbFlP1R7jgYtxGYh6ZdRBMo0tP0u9na9Pwd+Z7avzoI44W5V70w==",
+  "dgSpecHash": "7BQj59ZDtUdsLf95eGhIFtkR2Hqeap/1PlW5LpfFXcDMfN7fU4XU90TITBEXG+orGHBeY/IXX2oFtn9MnlLycQ==",
   "success": true,
-  "projectFilePath": "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+  "projectFilePath": "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mh_sh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mh_sh\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",

@@ -1,11 +1,20 @@
 using Microsoft.EntityFrameworkCore;
 using CommandAPI.Data;
-
+using Npgsql;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddScoped<ICommandAPIRepo, SqlCommandAPIRepo>();
-builder.Services.AddDbContext<CommandContext>(option => option.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSqlConnection")));
+
+
+NpgsqlConnectionStringBuilder connectionStringBuilder = new NpgsqlConnectionStringBuilder();
+connectionStringBuilder.ConnectionString = builder.Configuration.GetConnectionString("PostgreSqlConnection");
+connectionStringBuilder.Username = builder.Configuration["UserID"];
+connectionStringBuilder.Password = builder.Configuration["Password"];
+
+throw new Exception(connectionStringBuilder.ConnectionString);
+
+builder.Services.AddDbContext<CommandContext>(option => option.UseNpgsql(connectionStringBuilder.ConnectionString));
 var app = builder.Build();
 
 app.MapControllers();
