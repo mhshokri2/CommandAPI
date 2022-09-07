@@ -12,8 +12,6 @@ connectionStringBuilder.ConnectionString = builder.Configuration.GetConnectionSt
 connectionStringBuilder.Username = builder.Configuration["UserID"];
 connectionStringBuilder.Password = builder.Configuration["Password"];
 
-throw new Exception(connectionStringBuilder.ConnectionString);
-
 builder.Services.AddDbContext<CommandContext>(option => option.UseNpgsql(connectionStringBuilder.ConnectionString));
 var app = builder.Build();
 
