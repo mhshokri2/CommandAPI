@@ -29,3 +29,5 @@ D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\Comm
 D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\Npgsql.dll
 D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\obj\Debug\net6.0\CommandAPI.csproj.CopyComplete
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\AutoMapper.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\src\CommandAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

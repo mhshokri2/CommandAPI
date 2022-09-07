@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7BQj59ZDtUdsLf95eGhIFtkR2Hqeap/1PlW5LpfFXcDMfN7fU4XU90TITBEXG+orGHBeY/IXX2oFtn9MnlLycQ==",
+  "dgSpecHash": "wqH7zAl4D7u5o5Zc1AJrbFcP6A3r9F1fH3mC0GQprmcfU2nM63ZSZk8oHFRbCHjt6oA17k3FWHUvlyDy9qSK1A==",
   "success": true,
-  "projectFilePath": "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj",
+  "projectFilePath": "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mh_sh\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\mh_sh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\mh_sh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\mh_sh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\mh_sh\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "C:\\Users\\mh_sh\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.8\\microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
     "C:\\Users\\mh_sh\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.8\\microsoft.entityframeworkcore.analyzers.6.0.8.nupkg.sha512",

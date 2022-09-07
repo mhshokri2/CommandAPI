@@ -1,11 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using CommandAPI.Data;
 using Npgsql;
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddScoped<ICommandAPIRepo, SqlCommandAPIRepo>();
-
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 NpgsqlConnectionStringBuilder connectionStringBuilder = new NpgsqlConnectionStringBuilder();
 connectionStringBuilder.ConnectionString = builder.Configuration.GetConnectionString("PostgreSqlConnection");

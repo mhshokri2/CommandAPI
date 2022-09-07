@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj": {}
+    "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {}
   },
   "projects": {
-    "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj": {
+    "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj",
+        "projectUniqueName": "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "projectName": "CommandAPI",
-        "projectPath": "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj",
+        "projectPath": "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "packagesPath": "C:\\Users\\mh_sh\\.nuget\\packages\\",
-        "outputPath": "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\commandapi\\obj\\",
+        "outputPath": "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\CommandAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\commandapi\\NuGet.Config",
+          "D:\\Programing\\Asp\\Project_Learning\\The Complete ASP.NET Core 3 API Tutorial\\CommandAPISolution\\src\\CommandAPI\\NuGet.Config",
           "C:\\Users\\mh_sh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
@@ -48,6 +48,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.8, )"
