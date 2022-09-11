@@ -67,7 +67,7 @@ public class CommandsController : ControllerBase
     }
 
     [HttpPatch("{id}")]
-    public IActionResult PartialCommandUpdateadfg(int id, JsonPatchDocument<CommandUpdateDto> pathcDoc)
+    public ActionResult PartialCommandUpdatead(int id, JsonPatchDocument<CommandUpdateDto> pathcDoc)
     {
         Command entity = _commandAPIRepo.GetCommandById(id);
         if (entity == null)
@@ -87,7 +87,7 @@ public class CommandsController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public IActionResult DeleteCommand(int id)
+    public ActionResult DeleteCommand(int id)
     {
         Command entity = _commandAPIRepo.GetCommandById(id);
         if (entity == null)

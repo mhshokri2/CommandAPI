@@ -117,3 +117,5 @@ D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\Comm
 D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\Npgsql.dll
 D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandApi.Tests\bin\Debug\net6.0\Castle.Core.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandApi.Tests\bin\Debug\net6.0\Moq.dll
