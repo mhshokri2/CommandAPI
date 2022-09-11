@@ -28,3 +28,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+- task: UseDotNet@2
+- script: dotnet build --configuration $(buildConfiguration)
+ displayName: 'dotnet build $(buildConfiguration)'
+
