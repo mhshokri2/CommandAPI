@@ -14,7 +14,27 @@ variables:
   buildPlatform: "Any CPU"
   buildConfiguration: "Release"
 
-  steps:
-    - task: UseDotNet@2
-    - script: dotnet build --configuration $(buildConfiguration)
-      displayName: "dotnet build $(buildConfiguration)"
+steps:
+  - task: NuGetToolInstaller@1
+
+  - task: NuGetCommand@2
+    inputs:
+      restoreSolution: "$(solution)"
+
+  - task: VSBuild@1
+    inputs:
+      solution: "$(solution)"
+      msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
+      platform: "$(buildPlatform)"
+      configuration: "$(buildConfiguration)"
+  
+  - task: DotNetCoreCLI@2
+    displayName: 'dotnet publish'
+    inputs:
+      command: publish
+      publishWebProjects: false
+      projects: 'src/CommandAPI/*.csproj'
+      arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    
+  - task: PublishBuildArtifacts@1
+    displayName: 'publish artifacts'
