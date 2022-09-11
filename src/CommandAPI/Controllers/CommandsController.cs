@@ -89,6 +89,7 @@ public class CommandsController : ControllerBase
     [HttpDelete("{id}")]
     public ActionResult DeleteCommand(int id)
     {
+        //Some Change
         Command entity = _commandAPIRepo.GetCommandById(id);
         if (entity == null)
         {
