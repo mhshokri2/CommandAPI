@@ -105,3 +105,15 @@ D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\Comm
 D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\obj\Debug\net6.0\CommandAPI.Tests.pdb
 D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\obj\Debug\net6.0\CommandAPI.Tests.genruntimeconfig.cache
 D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\obj\Debug\net6.0\ref\CommandAPI.Tests.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\nuget.config
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\AutoMapper.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\Npgsql.dll
+D:\Programing\Asp\Project_Learning\The Complete ASP.NET Core 3 API Tutorial\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

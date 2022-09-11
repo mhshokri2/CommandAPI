@@ -6,5 +6,11 @@ namespace CommandAPI.Profiles;
 
 public class CommandProfile : Profile
 {
-    public CommandProfile() => CreateMap<Command, CommandReadDto>();
+    public CommandProfile()
+    {
+        CreateMap<Command, CommandReadDto>();
+        CreateMap<CommandCreateDto, Command>();
+        CreateMap<CommandUpdateDto, Command>();
+        CreateMap<Command, CommandUpdateDto>();
+    }
 }
